@@ -32,5 +32,22 @@ print(list_data[3])
 
 my_list <- list(1,2,3,"a","b","c")
 for (element in my_list){
-  print(element)
+    print(element)
 }
+
+
+list1 <- list(1,2,3)
+list2 <- list("Google","Runoob","Taobao")
+merged.list <- c(list1,list2)
+print(merged.list)
+
+list1 <- list(1:5)
+list2 <- list(10:14)
+print(list1)
+print(list2)
+v1 <- unlist(list1)
+v2 <- unlist(list2)
+print(v1)
+print(v2)
+result <- v1+v2
+print(result)
