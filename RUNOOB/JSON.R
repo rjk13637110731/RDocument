@@ -1,0 +1,10 @@
+library("rjson")
+result <- fromJSON(file="E:/CodingDocument/RDocument/Runoob/sites.json")
+print(result)
+print("============================")
+print(result[1])
+print("============================")
+print(result[[2]][[2]])
+
+json_data_frame <- as.data.frame(result)
+print(json_data_frame)
